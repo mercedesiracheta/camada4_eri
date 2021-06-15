@@ -1,0 +1,30 @@
+1- CONFIGURAR: 
+ * Git config (--global) user.name : Relacionar el usuario de mi cuenta de GitHub con el repositorio, en el caso de agregar
+ --global no es necesario repetir esta configuración.
+ * Git config (--global) user.mail : Relacionar el email de mi cuenta de GitHub con el repositorio, en el caso de agregar
+ --global no es necesario repetir esta configuración
+2- INICIAR Y CLONAR REPOSITORIOS DE GIT
+ * Git init : iniciar repositorio. Este comando solo se utiliza una sola vez.
+ * Git clone url_del_repositorio_remoto: clonar repositorio remoto en la carpeta donde se este ubicado, este comando solo se
+ utiliza una sola vez
+3- STAGING AREA:
+ * Git status: muestra los archivos modificados en el working directory listos para el próximo commit.
+ * Git add: Agrega un archivo para que luego sea commiteado. Si se ejecuta Git add . se agregaran todos los archivos y carpeta
+desde donde se este ubicado.
+ * Git commit -m: crea una "foto" de nuestro repositorio y de los archivos que hayamos agregado. 
+4- RAMAS Y MERGE
+ * Git branch nombre_de_la_rama : Crea una nueva rama paralela a la main. Si solo se ejecuta Git branch la terminal lista todas
+las ramas disponibles mostrando con un * a la que estemos posicionados actualmente.
+ * Git checkout nombre_de_la_rama: cambia de rama con la seleccionada.
+ * Git merge: Pararse en la rama main, y ejecutar este comando más el nombre de la rama que se desea hacer merge. Es decir,
+ sirve para unir todo los archivos y carpetas de nuestra rama con la main. 
+ * Git log: Nos muestra el historial de commits de la rama en donde se este posicionado.
+5- REPOSITORIO REMOTO:
+ * Git clone url_del_repositorio_remoto: clonar repositorio remoto en la carpeta donde se este ubicado, este comando solo se
+ utiliza una sola vez.
+ * Git remote add URL_del_repo_remoto: Enlaza nuestro repositorio local con el repositorio remoto creado desde GitHub.
+ * Git push origin rama_que_se_desee_subir_a_la_nube: Sube el contenido previamente commiteado al repositorio remoto.
+ * Git pull origin rama_remoto: Trae y actualiza el contenido que esta cargado en la rama remota en nuestro repositorio local.
+6- ELIMINAR Y MOVER ARCHIVOS
+ * Git rm: elimina archivos de nuestro repositorio. Luego se debe commitear el cambio.
+ * Git mv: cambia o renombra nuestos archivos. Luego se debe commitear el cambio.
