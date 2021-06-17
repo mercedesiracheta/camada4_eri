@@ -4,6 +4,8 @@ Al principio, Git se pensó como un motor de bajo nivel sobre el cual otros pudi
 
 
 ¿A quién pertenece actualmente Github y por qué?
-Actualmente le pertenece a Microsoft porque asegura que GitHub mantendrá su distintivo enfoque de anteponer a los desarrolladores y seguirá operando de forma independiente para ofrecer una plataforma abierta a todos los desarrolladores e industrias
+Actualmente le pertenece a Microsoft porque asegura que GitHub mantendrá su distintivo enfoque de anteponer a los desarrolladores y seguirá operando de forma independiente para ofrecer una plataforma abierta a todos los desarrolladores e industrias.
 
 ¿Hay otra forma que no sea la terminal para trabajar con Github?
+
+Si, otra forma de trabajar con Hithub es usando Github Desktop
